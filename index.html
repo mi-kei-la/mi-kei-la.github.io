@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Optica Ibiza</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+  <!--CSS LOCAL-->
+  <link rel="stylesheet" type="text/css" href="carousel.css">
+  <!--ROBOTO-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./bs_files/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Optica Ibiza</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sucursales">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meli">Mercado Libre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactInfo">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button> 
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/oferta1.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+
+          <!-- <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Promo 1</h1>
+              <p>bla bla promo 1</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Comprar</a></p>
+            </div>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="./img/oferta2.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <!-- <h1>Promo 2</h1>
+              <p>2222222222222222222</p> -->
+              <p><a class="btn btn-lg btn-primary" href="#meli">Comprar</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/oferta3.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <!-- <h1>Promo 3</h1>
+              <p>33333333333333333333333333333</p> -->
+              <p><a class="btn btn-lg btn-primary" href="#meli">Comprar</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/oferta1OLD.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <!-- <h1>Promo 3</h1>
+              <p>33333333333333333333333333333</p> -->
+              <p><a class="btn btn-lg btn-primary" href="#meli">Comprar</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+
+      <!-- <div class="row">
+        <div class="col-lg-4">
+          <img src="./img/miniaturaPromo1.png" class="img rounded-circle" width="140" height="140"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <h2>Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
+            column.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="./img/miniaturaPromo2.png" class="img rounded-circle" width="140" height="140"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <h2>Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="./img/miniaturaPromo3.png" class="img rounded-circle" width="140" height="140"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+
+          <h2>Heading</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+      </div> -->
+
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="sucursales">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Nuestras sucursales:<span class="text-muted"> Cordón y Sayago</span></h2>
+          <p class="lead">Conocé nuestros locales para contar con la atención especializada por nuestros años de
+            experiencia</p>
+        </div>
+        <div class="col-md-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52372.850876795!2d-56.23225524047098!3d-34.87373241228407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1soptica%20ibiza!5e0!3m2!1ses-419!2suy!4v1648687611784!5m2!1ses-419!2suy"
+            width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="meli">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Visitanos en <span class="text-muted">Mercadolibre</span></h2>
+          <p class="lead">Visitá nuestra tienda en MercadoLibre para encontrar las últimas promociones y nuevos
+            productos, con envío incluido</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="./img/mercadolibre.png" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="contactInfo">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Tambien tenemos<span class="text-muted"> Whatsapp</span></h2>
+          <p class="lead">Pódes contactarnos directamente por whatsapp por compras o consultas.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="./img/wpp.png" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <!-- <p class="float-end"><a href="#">Volver arriba</a></p> -->
+      <p class="text-center"> Optica Ibiza <br> Av. Millán 4471 - 23082947 <br> Agr. Germán Barbato 1395 - 29086931 </p>
+    </footer>
+  </main>
+
+  <script src="./bs_files/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
