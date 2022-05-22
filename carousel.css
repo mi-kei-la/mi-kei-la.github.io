@@ -38,16 +38,16 @@ btn-primary{
 /* Declare heights because of positioning of img element */
 
 #myCarousel {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
   height: auto;
   overflow: hidden;
 }
 
 #myCarousel img {
-  min-height: 50vh;
+  min-height: 70vh;
   max-height: 90vh;
   overflow: hidden;
 }
